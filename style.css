@@ -1,0 +1,25 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fudo: #00030c;
+}
+    
+body{
+background-color: var(--cor-de-fudo)
+}
+
+*{
+margin:0;
+padding:0;
+}
+
+#botao:hover {
+transform: scale(1.08);
+transition: transform 200ms linear;
+}
+
+#botao2:hover {
+transform: scale(1.08);
+transition: transform 200ms linear;
+}
